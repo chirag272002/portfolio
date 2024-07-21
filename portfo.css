@@ -31,3 +31,20 @@
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       
     }
+.logo
+{
+ font-size: 7vh;
+ color:blanchedalmond;
+ font-weight: 600;
+
+}
+li{
+    display: inline-block; list-style: none;
+}
+li a{
+    font size: 4vh
+    ;
+    font-weight: 300;
+    margin-right: 25px;
+    color: azure;
+}
