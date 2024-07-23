@@ -9,17 +9,22 @@
 }
 .imj{
     display: flex;
-    height: 4rem;
-    width: 4rem;
-    background-color: red;
-    justify-content: center;
-    padding-left: 50%;
-    box-sizing: border-box;
+   
+    height: 300px ;
+    width: 300x;
+    margin-left: 60%;
+    margin-top: 10%;
+   
     
+   
+
     
     
 }
-
+.imj img{
+    border: 2pgx solid white;
+    border-radius: 50%;
+}
 
 
     
