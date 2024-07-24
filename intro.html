@@ -1,84 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chirag Agarwal's Portfolio</title>
-  <link rel="stylesheet" href="portfo.css">
-  
-  <style>
-     overflow-x: hidden;
-    
-    .bar{
-       
-       position: sticky;
-       top: 0%;
-       height: 10vh;
-       background-color: black;
-       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       padding-right: 15px;
-       padding-left: 15px;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfo.css" />
+    <title>Chirag's Portfolio</title>
+    <style>
+      body{
+        background-color: rgb(8, 8, 64);
+      }
+      nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 50px;
+        background-color: rgb(3, 3, 16);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Chirag Agarwal</div>
+        <div class="right">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+       <main>
+       <section class="first">
+        <div class="leftsection">
+         left
+        </div>
+        <div class="rightsection">
+         <img src="IMG_2826.JPG" alt="">
+        </div>
+       </section>
+       </main>
 
-
-    }
-    .navdiv{
-      display: flex; align-items: center; justify-content: space-between;
-    }
-    
-  </style>
-</head>
-<body>
-  <nav class="bar">  
-  <div class="navdiv">
-  <div class="logo"><a href="#">CA</a></div>
-   <ul>
-    <li> <a href="#">HOME </a> </li>
-    <li> <a href="#">ABOUT ME </a> </li>
-    <li> <a href="#">SKILLS </a> </li>
-    <li> <a href="#">PROJECTS </a> </li>
-    <li> <a href="#">CONTACT ME</a> </li>
-
-   </ul>
-
-  </nav>
-  </div>
-  </div>
-  
-  <div class="imj">
-
-   <img src="IMG_2826.JPG" alt="">
-
-    
-     </div>
-  
-  </div>
-  <div class="des">
-   <span class="h">Hi,My name is </span> <span class="purple"> Chirag  </span> 
-    <div class="w">I am a Passionate </div>
-    
-    <span style="font-size: 50px;" id="element"></span>
-      
-
-  </div>
-  
-<div class="page2">
-  
-
-
-</div>
-
-<div class="page3">
-
-
-
-</div>
-<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<script>
-  var typed = new Typed('#element', {
-    strings: ["Web Developer ", "Data Analyst","Video Editor"],
-    typeSpeed: 50,
-  });
-</script>
-</body>
-</body>
+  </body>
 </html>
